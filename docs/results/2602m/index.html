@@ -4,72 +4,25 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>월간 마케팅 충성지표 리포트 (2602m)</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
-    :root {
-      --bg: #ffffff; --fg: #111827; --muted: #6b7280; --line: #e5e7eb; --head: #f3f4f6;
-    }
-    body {
-      margin: 24px;
-      font-family: "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Segoe UI",
-                   Roboto, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
-      color: var(--fg); background: var(--bg);
-    }
+    body { margin: 24px; font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Malgun Gothic",sans-serif; color:#111827; }
     .title { font-size: 24px; font-weight: 700; margin-bottom: 6px; }
-    .sub { color: var(--muted); margin-bottom: 18px; font-size: 12px; }
-    .section { margin: 28px 0 40px; padding-top: 10px; border-top: 1px solid var(--line); }
+    .sub { color: #6b7280; margin-bottom: 18px; font-size: 12px; }
+    .section { margin: 28px 0 40px; padding-top: 10px; border-top: 1px solid #e5e7eb; }
     .h1 { font-size: 18px; font-weight: 700; margin: 6px 0 10px; }
     .h2 { font-size: 14px; font-weight: 700; margin: 16px 0 8px; }
-    ul { margin: 0 0 8px 18px; line-height: 1.6; }
-    .tbl-wrap {
-      overflow-x: auto; border: 1px solid var(--line); border-radius: 10px;
-      padding: 10px; background: #fff;
-    }
-    table.tbl {
-      border-collapse: collapse; width: 100%;
-      font-size: 12px; white-space: nowrap; font-variant-numeric: tabular-nums;
-    }
-    table.tbl th, table.tbl td {
-      border-bottom: 1px solid var(--line);
-      padding: 8px 10px; text-align: right; vertical-align: middle;
-    }
-    table.tbl th {
-      background: var(--head); font-weight: 700;
-      position: sticky; top: 0; z-index: 2; font-size: 12px;
-    }
-    table.tbl td {
-      font-size: 14px;
-      font-weight: 400; color: var(--fg);
-    }
-    table.tbl td:first-child, table.tbl th:first-child {
-      text-align: left; font-size: 12px;
-    }
-    .note { color: var(--muted); font-size: 12px; margin-top: 6px; }
-    .toc a { color: #2563eb; text-decoration: none; }
-    .toc a:hover { text-decoration: underline; }
+    .tbl-wrap { overflow-x:auto; border:1px solid #e5e7eb; border-radius:10px; padding:10px; }
+    table.tbl { border-collapse: collapse; width: 100%; font-size: 12px; white-space: nowrap; font-variant-numeric: tabular-nums; }
+    table.tbl th, table.tbl td { border-bottom: 1px solid #e5e7eb; padding: 8px 10px; text-align: right; }
+    table.tbl th { background: #f3f4f6; font-weight: 700; position: sticky; top: 0; }
+    table.tbl td:first-child, table.tbl th:first-child { text-align: left; }
+    .note { color:#6b7280; font-size: 12px; margin-top: 6px; }
   </style>
 </head>
 <body>
   <div class="title">월간 마케팅 충성지표 리포트 (2602m)</div>
-  <div class="sub">생성일: 2026-03-03 01:17:14</div>
-
-  <div class="h2">목차</div>
-  <ul class="toc">
-    <li><a href="#sec1">배달 업종</a></li><li><a href="#sec2">패션의류 업종</a></li><li><a href="#sec3">종합여행플랫폼 업종</a></li><li><a href="#sec4">투자</a></li>
-  </ul>
-
-  <div class="section" id="sec1">
-    <div class="h1">배달 업종</div>
-    <div class="h2">충성고객 지표</div>
-    <ul>
-      <li>1. 업종내 월 사용일 수 3회 이하 사용자 수</li><li>2. 업종내 월 사용일 수 4회 이상~7회 이하 사용자 수</li><li>3. 업종내 월 사용일 수 8회 이상 사용자 수</li><li>4. 각 앱의 월 사용일 수 3회 이하 사용자 수</li><li>5. 각 앱의 월 사용일 수 4회 이상~7회 이하 사용자 수</li><li>6. 각 앱의 월 사용일 수 8회 이상 사용자 수</li>
-    </ul>
-
-    <div class="h2">업종 요약 <span class="note">(delivery_category_days)</span></div>
-    <div class="tbl-wrap">
-      <table class="dataframe tbl">
+  <div class="sub">생성일: 2026-03-03 01:18:20</div>
+<div class="section" id="sec1"><div class="h1">배달 업종</div><div class="h2">업종 요약 <span class="note">(delivery_category_days)</span></div><div class="tbl-wrap"><table class="dataframe tbl">
   <thead>
     <tr style="text-align: right;">
       <th>업종</th>
@@ -86,13 +39,7 @@
       <td>768,181</td>
     </tr>
   </tbody>
-</table>
-    </div>
-    <div class="note">rows=1, cols=4</div>
-
-    <div class="h2">앱별 분포 <span class="note">(delivery_apps_days)</span></div>
-    <div class="tbl-wrap">
-      <table class="dataframe tbl">
+</table></div><div class="note">rows=1, cols=4</div><div class="h2">앱별 분포 <span class="note">(delivery_apps_days)</span></div><div class="tbl-wrap"><table class="dataframe tbl">
   <thead>
     <tr style="text-align: right;">
       <th>앱</th>
@@ -127,22 +74,7 @@
       <td>22,904</td>
     </tr>
   </tbody>
-</table>
-    </div>
-    <div class="note">rows=4, cols=4</div>
-
-  </div>
-
-  <div class="section" id="sec2">
-    <div class="h1">패션의류 업종</div>
-    <div class="h2">충성고객 지표</div>
-    <ul>
-      <li>1. 업종내 월 사용시간 하위 50% 미만 사용자 수</li><li>2. 업종내 월 사용시간 하위 50%이상 ~80% 미만 사용자 수</li><li>3. 업종내 월 사용시간 상위 20% 이상 사용자 수</li><li>4. 각 앱의 월 사용시간 1번 기준 미만 사용자 수</li><li>5. 각 앱의 월 사용시간 2번 기준 미만 사용자 수</li><li>6. 각 앱의 월 사용시간 3번 기준 미만 사용자 수</li>
-    </ul>
-
-    <div class="h2">업종 컷 요약 <span class="note">(fashion_category_time_cuts)</span></div>
-    <div class="tbl-wrap">
-      <table class="dataframe tbl">
+</table></div><div class="note">rows=4, cols=4</div></div><div class="section" id="sec2"><div class="h1">패션의류 업종</div><div class="h2">업종 컷 요약 <span class="note">(fashion_category_time_cuts)</span></div><div class="tbl-wrap"><table class="dataframe tbl">
   <thead>
     <tr style="text-align: right;">
       <th>월 카테고리 사용자</th>
@@ -154,18 +86,12 @@
   <tbody>
     <tr>
       <td>771,084</td>
-      <td>388,536</td>
-      <td>229,133</td>
-      <td>153,415</td>
+      <td>388,980</td>
+      <td>228,424</td>
+      <td>153,680</td>
     </tr>
   </tbody>
-</table>
-    </div>
-    <div class="note">rows=1, cols=7</div>
-
-    <div class="h2">앱별 분포 <span class="note">(fashion_apps_time_by_cuts)</span></div>
-    <div class="tbl-wrap">
-      <table class="dataframe tbl">
+</table></div><div class="note">rows=1, cols=7</div><div class="h2">앱별 분포 <span class="note">(fashion_apps_time_by_cuts)</span></div><div class="tbl-wrap"><table class="dataframe tbl">
   <thead>
     <tr style="text-align: right;">
       <th>앱</th>
@@ -179,48 +105,33 @@
     <tr>
       <td>com.musinsa.store</td>
       <td>247,066</td>
-      <td>156,906</td>
-      <td>64,998</td>
-      <td>25,163</td>
+      <td>157,002</td>
+      <td>65,165</td>
+      <td>24,900</td>
     </tr>
     <tr>
       <td>com.banhala.android</td>
       <td>169,807</td>
-      <td>105,069</td>
-      <td>42,585</td>
-      <td>22,158</td>
+      <td>105,132</td>
+      <td>42,704</td>
+      <td>21,976</td>
     </tr>
     <tr>
       <td>kr.rapportlabs.damoa</td>
       <td>147,891</td>
-      <td>89,952</td>
-      <td>37,480</td>
-      <td>20,463</td>
+      <td>90,009</td>
+      <td>37,575</td>
+      <td>20,311</td>
     </tr>
     <tr>
       <td>com.croquis.zigzag</td>
       <td>84,182</td>
-      <td>50,548</td>
-      <td>21,832</td>
-      <td>11,804</td>
+      <td>50,588</td>
+      <td>21,901</td>
+      <td>11,695</td>
     </tr>
   </tbody>
-</table>
-    </div>
-    <div class="note">rows=4, cols=8</div>
-
-  </div>
-
-  <div class="section" id="sec3">
-    <div class="h1">종합여행플랫폼 업종</div>
-    <div class="h2">충성고객 지표</div>
-    <ul>
-      <li>1. 90일 이내 해외여행 예정자 수 (라이브 오디언스 전체 모수)</li><li>2. 각 앱의 90일 이내 해외여행 예정자 분포 수 (4개)</li>
-    </ul>
-
-    <div class="h2">분포 <span class="note">(travel_planners_distribution)</span></div>
-    <div class="tbl-wrap">
-      <table class="dataframe tbl">
+</table></div><div class="note">rows=4, cols=8</div></div><div class="section" id="sec3"><div class="h1">종합여행플랫폼 업종</div><div class="h2">분포 <span class="note">(travel_planners_distribution)</span></div><div class="tbl-wrap"><table class="dataframe tbl">
   <thead>
     <tr style="text-align: right;">
       <th>앱명</th>
@@ -270,22 +181,7 @@
       <td>29.58%</td>
     </tr>
   </tbody>
-</table>
-    </div>
-    <div class="note">rows=4, cols=7</div>
-
-  </div>
-
-  <div class="section" id="sec4">
-    <div class="h1">투자</div>
-    <div class="h2">충성고객 지표</div>
-    <ul>
-      <li>1. 금융 카테고리 이용시간 상위 20% 사용자 중 각 앱 사용자 수 비중</li>
-    </ul>
-
-    <div class="h2">Top20 침투/비중 <span class="note">(invest_top20_penetration)</span></div>
-    <div class="tbl-wrap">
-      <table class="dataframe tbl">
+</table></div><div class="note">rows=4, cols=7</div></div><div class="section" id="sec4"><div class="h1">투자</div><div class="h2">Top20 침투/비중 <span class="note">(invest_top20_penetration)</span></div><div class="tbl-wrap"><table class="dataframe tbl">
   <thead>
     <tr style="text-align: right;">
       <th>search_key</th>
@@ -303,48 +199,41 @@
       <td>2602m</td>
       <td>업비트</td>
       <td>com.dunamu.exchange</td>
-      <td>559,094</td>
+      <td>555,365</td>
       <td>320,205</td>
-      <td>135,592</td>
-      <td>24.25%</td>
-      <td>42.35%</td>
+      <td>136,111</td>
+      <td>24.51%</td>
+      <td>42.51%</td>
     </tr>
     <tr>
       <td>2602m</td>
       <td>키움</td>
       <td>com.kiwoom.heromts</td>
-      <td>559,094</td>
+      <td>555,365</td>
       <td>226,895</td>
-      <td>112,678</td>
-      <td>20.15%</td>
-      <td>49.66%</td>
+      <td>113,080</td>
+      <td>20.36%</td>
+      <td>49.84%</td>
     </tr>
     <tr>
       <td>2602m</td>
       <td>미래에셋</td>
       <td>com.miraeasset.trade</td>
-      <td>559,094</td>
+      <td>555,365</td>
       <td>221,853</td>
-      <td>111,564</td>
-      <td>19.95%</td>
-      <td>50.29%</td>
+      <td>111,922</td>
+      <td>20.15%</td>
+      <td>50.45%</td>
     </tr>
     <tr>
       <td>2602m</td>
       <td>빗썸</td>
       <td>com.btckorea.bithumb</td>
-      <td>559,094</td>
+      <td>555,365</td>
       <td>180,692</td>
-      <td>86,247</td>
-      <td>15.43%</td>
-      <td>47.73%</td>
+      <td>86,567</td>
+      <td>15.59%</td>
+      <td>47.91%</td>
     </tr>
   </tbody>
-</table>
-    </div>
-    <div class="note">rows=4, cols=8</div>
-
-  </div>
-
-</body>
-</html>
+</table></div><div class="note">rows=4, cols=8</div></div></body></html>
